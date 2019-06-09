@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="998fbe5c-8c57-4044-96be-c29740daf51d">
+  <producedTypes>
+    <refType typeId="22425b11-583b-47b7-bf42-a57aa031fa87" valueTypeId="4168b08e-93a9-404f-a855-d0da0de89486"/>
+    <listType typeId="2a55b854-3019-4066-9ccd-bb94543fbd07" valueTypeId="6d34710b-4a6b-43bf-a915-b0603d5913f1"/>
+    <managerType typeId="b044c182-5336-49cd-9149-4a65b8ce7d03" valueTypeId="0019135f-3e82-417f-8a91-f69aeb614378"/>
+  </producedTypes>
+  <name>СтатусыЗаявокНаПеревозку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок на перевозку</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b25bf456-bc74-47dd-bff7-99536fb12488">
+    <name>НеДоставлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не доставлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c33c29b-0ca6-4fbb-bbe2-fcda6d37525c">
+    <name>Доставлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставлено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

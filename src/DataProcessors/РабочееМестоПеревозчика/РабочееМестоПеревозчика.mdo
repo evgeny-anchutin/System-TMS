@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41b9f0e0-f48f-418d-8746-41eb3772c953">
+  <producedTypes>
+    <objectType typeId="3f8d5637-d7a2-4fe5-8afb-a5ba0380e1da" valueTypeId="73690516-163e-4882-8c5c-2ff20b3e3241"/>
+    <managerType typeId="de5abb40-7d2f-4589-b386-5ef0d1159a22" valueTypeId="ba035850-5ee5-4a9c-bd9a-8c45cc172ec4"/>
+  </producedTypes>
+  <name>РабочееМестоПеревозчика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личный кабинет перевозчика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоПеревозчика.Form.Форма</defaultForm>
+  <attributes uuid="170a444d-27e9-45e4-ab7e-c04ddd695733">
+    <name>Перевозчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевозчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Перевозчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="36b50d76-0749-4e3a-a78f-8c166e5cf104">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

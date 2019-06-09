@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94b36e06-a826-4d1d-aa07-269c2a886f40">
+  <producedTypes>
+    <objectType typeId="3be4a15f-b89e-4730-8e3a-1a72e6e1b84d" valueTypeId="2e703a29-4b2e-47ff-b51c-c5caaf79fa44"/>
+    <refType typeId="dd04a534-f6e2-4f4b-87a3-a0ecc6fac232" valueTypeId="2e7a3ffb-cef1-434e-84bb-1df7e7201a59"/>
+    <selectionType typeId="e520bab9-0fb1-403a-bbdb-b365ba64dc11" valueTypeId="ad366aff-a175-4dcf-b86e-0136c76ca6ac"/>
+    <listType typeId="f2955b3b-eafb-428a-af69-ce9d655d9333" valueTypeId="d5f9cb2b-9d06-4691-8511-8d028931a4d5"/>
+    <managerType typeId="ec607b75-285b-42d0-bcb6-255b194817e3" valueTypeId="a9a59e15-8748-491c-99a1-fe2f2d18e39c"/>
+  </producedTypes>
+  <name>Перевозчики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перевозчики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Перевозчики.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Перевозчики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

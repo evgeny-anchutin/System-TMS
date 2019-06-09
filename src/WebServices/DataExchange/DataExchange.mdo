@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec35d90f-2fd4-4fef-ab14-7ff953ea6627">
+  <name>DataExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Data exchange</value>
+  </synonym>
+  <namespace>http://system.pus.team</namespace>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>dataexchange.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="069544ae-8ec7-49ab-8d6e-e23ef38ea9d7">
+    <name>Exchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Exchange</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="11107cd6-9583-4c27-a6ce-870ddae3ab60">
+      <name>Parameter</name>
+      <synonym>
+        <key>ru</key>
+        <value>Parameter</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

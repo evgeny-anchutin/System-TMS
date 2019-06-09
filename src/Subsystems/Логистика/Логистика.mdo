@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bdedd4a-cfd6-4e45-ac12-98761e20f810">
+  <name>Логистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логистика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Логистика</picture>
+  </picture>
+  <content>Document.ЗаявкаНаПеревозку</content>
+  <content>Document.МаршрутноеЗадание</content>
+  <content>DataProcessor.РабочееМестоЗаказчика</content>
+  <content>DataProcessor.РабочееМестоПеревозчика</content>
+  <content>DataProcessor.РабочееМестоАдминистратора</content>
+  <content>InformationRegister.ШтрихкодыДокументов</content>
+  <content>CommonPicture.Логистика</content>
+</mdclass:Subsystem>

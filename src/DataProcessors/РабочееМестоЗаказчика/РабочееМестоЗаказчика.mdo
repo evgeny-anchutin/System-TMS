@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b277395-68bf-4888-96e3-6d8edf8aa97a">
+  <producedTypes>
+    <objectType typeId="376df847-e752-44dd-b045-0107201fc7af" valueTypeId="b211f55c-012d-4618-99e4-09f962b317da"/>
+    <managerType typeId="0298ef4d-dd8c-4516-8e6b-abbc0ea2bcc3" valueTypeId="f5aa75a2-49a7-45cf-8627-3412ea225f25"/>
+  </producedTypes>
+  <name>РабочееМестоЗаказчика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личный кабинет заказчика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоЗаказчика.Form.Форма</defaultForm>
+  <attributes uuid="84e11b8c-1076-4b49-b7d3-5b2e8991add8">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ab5b1efc-263a-4915-80f0-84d670d2cbc5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3cb6cf3b-51aa-4f06-a266-1aba3c23e794">
+    <name>ФормаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выполнения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

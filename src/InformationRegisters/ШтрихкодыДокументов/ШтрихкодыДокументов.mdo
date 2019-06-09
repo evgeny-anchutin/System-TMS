@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a20ed069-7a04-4cbf-8c7b-b4d49422bef1">
+  <producedTypes>
+    <selectionType typeId="f9efbbf5-cf9a-4c81-a5d9-bfe97b468f75" valueTypeId="3f9273ad-afa5-4b76-9fd9-10e156fbb931"/>
+    <listType typeId="00e19758-f38f-4e87-b744-a0bf0f8474b4" valueTypeId="28c2bf62-25e1-4468-be76-6d824215ce38"/>
+    <managerType typeId="d9e0f8a1-5628-4b80-aaf6-e096afe77f62" valueTypeId="8d99c4fa-3c70-42c3-a0e9-5f7a5e6c5e74"/>
+    <recordSetType typeId="2207cfc5-2c62-415b-82e2-72794cadf919" valueTypeId="28e3139f-bab5-4b87-8f63-6e8e8590c58a"/>
+    <recordKeyType typeId="449ea7f2-e707-495e-8117-af26004a0a51" valueTypeId="b278e651-5586-42f0-9c2b-2483fe00a9fd"/>
+    <recordType typeId="332606f4-b824-4afe-b2b3-b3da9b9b044c" valueTypeId="e83c5dd3-af60-40f3-bcd3-774c71359234"/>
+    <recordManagerType typeId="6c5aca9a-7359-4b10-a58e-ec8438e9867c" valueTypeId="e17a0ea9-0563-4d16-9d4a-7e5ff719684c"/>
+  </producedTypes>
+  <name>ШтрихкодыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="97f929c6-cb1f-495c-a74a-3265de8f93b7">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>13</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="fb952e0e-19e0-4e2a-b36e-47103b0c1503">
+    <name>ДокументСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ссылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаявкаНаПеревозку</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

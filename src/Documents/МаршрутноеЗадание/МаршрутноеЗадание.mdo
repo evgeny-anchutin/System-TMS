@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce011f7d-68e7-4c1a-b9eb-6d427bb6eb3f">
+  <producedTypes>
+    <objectType typeId="0d26e661-52df-4025-b95c-5bf4ee79a1f2" valueTypeId="f974ffae-af71-4f88-921a-7a998135ffd4"/>
+    <refType typeId="e166d8a6-472e-4659-8328-11d74724ba45" valueTypeId="db074efe-ab20-4f00-9f3a-1e6add79aff1"/>
+    <selectionType typeId="c39ed024-7120-47ca-b5b7-660bd7b99f0e" valueTypeId="f0a77fa8-9e63-40f1-96b2-27c0992a0eff"/>
+    <listType typeId="a034ad41-88ff-4fe5-af6e-2ea7781fc2d4" valueTypeId="367e4698-017b-4759-82af-7139edcce028"/>
+    <managerType typeId="11cc4903-e3ed-44b6-b373-6fd7c5cdd93a" valueTypeId="19ee1f12-b62d-4280-873f-90e7c9c1e7a6"/>
+  </producedTypes>
+  <name>МаршрутноеЗадание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маршрутное задание</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.МаршрутноеЗадание.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Маршрутные задания</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.МаршрутноеЗадание.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="444be753-d8dc-4088-a2b5-c088deed3f9f">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заказчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d629ff38-7920-4ac2-88d4-596e1d44448f">
+    <name>Перевозчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевозчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Перевозчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ae116162-c469-4b70-b416-5315d8636270">
+    <name>ТранспортноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортное средство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1aad84f0-e7e2-49a3-a61c-711515220db1">
+    <name>ОбщийОбъем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий объем</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="208db804-d73a-42b5-996b-08201d87e6ec">
+    <name>ОбщийВес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий вес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="243358db-9b85-4b11-ae0b-50336c52f4b1">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="07ce1866-7d17-4243-a099-006a06e57d8f">
+    <producedTypes>
+      <objectType typeId="2282f4e6-7f74-42fb-9992-911e23b90501" valueTypeId="ba3969b5-bcd5-432c-a940-ef1da70c6c64"/>
+      <rowType typeId="2d8b2e55-e2f7-411c-af7c-9a21b27a2174" valueTypeId="93b9c11f-e1a0-4f45-a211-044a7c06e711"/>
+    </producedTypes>
+    <name>ЗаявкиНаПеревозку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявки на перевозку</value>
+    </synonym>
+    <attributes uuid="57ab82eb-5928-4541-898a-577cad91a97c">
+      <name>Заявка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заявка</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаявкаНаПеревозку</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c1268072-d271-4a49-9cc4-f272f8f1d703">
+      <name>ПунктПогрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пункт погрузки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТочкиМаршрута</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="af35d42c-dda9-4067-a663-0dc078774d3e">
+      <name>ПунктРазгрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пункт разгрузки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТочкиМаршрута</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e1cd9017-9825-47be-b359-1d3d6b4a69a6">
+      <name>ВидГруза</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид груза</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыГрузов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d7b48ef8-5641-47a4-8bb1-dcb94847a21f">
+      <name>Объем</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объем</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a77ad068-e15c-45cd-bd14-50eea633ed69">
+      <name>Вес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

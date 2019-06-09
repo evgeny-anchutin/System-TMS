@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9a41a42-88ff-4df6-a6b0-702e244179f1">
+  <producedTypes>
+    <objectType typeId="a98a65e9-e689-48d5-841a-9a38598ed977" valueTypeId="4d9d0d8f-f91d-4702-8194-56275a9b5ec1"/>
+    <refType typeId="1c74ebe0-1c56-424b-94ac-038ac5776180" valueTypeId="0a72707f-8bd8-4e6c-93d1-0b86f41c1e23"/>
+    <selectionType typeId="af06cf9b-b0c8-4ead-af52-bf26fceaa7e7" valueTypeId="e501ea71-864a-46b0-9312-f3fafc86de50"/>
+    <listType typeId="647abcef-a40c-4102-8f82-cd5a21d937a7" valueTypeId="27ce9caf-ee96-45e0-a20b-e09d2318cef4"/>
+    <managerType typeId="03c1816a-43bb-45c6-96db-42d083ce63c0" valueTypeId="54de32b1-d94b-4df9-b85f-3ae19d941073"/>
+  </producedTypes>
+  <name>ТочкиМаршрута</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точки маршрута</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТочкиМаршрута.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТочкиМаршрута.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Заказчики</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТочкиМаршрута.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f3f24df6-728e-432a-ab57-2837a96c98a8">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="286fde40-fa41-49d3-93e6-40e017b8ba82">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

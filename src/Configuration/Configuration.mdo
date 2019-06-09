@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac6bc95c-a748-402b-b4ac-42f794f7e6e9">
+  <name>СистемаПлюсTMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Система+ TMS</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3560a75a-cfd3-40c8-801a-3f120f9cbd30"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="09c8025a-46f6-4fc3-9905-c05292b65e8c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e5bcfdb6-d530-4c84-b612-fe9b9f9d29c0"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e86514c2-92ca-4677-b853-b221ff11bd80"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="68dc12cd-d7a9-433c-8413-917e2d95cf4f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="9d82b51f-3387-462e-aa83-2421e529f82a"/>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <splash/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="924cafaf-06b5-417b-99c7-193b9b654cf8">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Логистика</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <commonPictures>CommonPicture.Логистика</commonPictures>
+  <commonPictures>CommonPicture.НСИ</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.Лого</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.Заказчик</roles>
+  <roles>Role.Перевозчик</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <commonTemplates>CommonTemplate.using_http_in_java</commonTemplates>
+  <commonModules>CommonModule.Сервисы</commonModules>
+  <commonModules>CommonModule.ФормированиеОтчетов</commonModules>
+  <webServices>WebService.DataExchange</webServices>
+  <httpServices>HTTPService.DataExchange</httpServices>
+  <catalogs>Catalog.ВидыГрузов</catalogs>
+  <catalogs>Catalog.Заказчики</catalogs>
+  <catalogs>Catalog.Перевозчики</catalogs>
+  <catalogs>Catalog.ТочкиМаршрута</catalogs>
+  <catalogs>Catalog.ТранспортныеСредства</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ЗаявкаНаПеревозку</documents>
+  <documents>Document.МаршрутноеЗадание</documents>
+  <enums>Enum.СтатусыЗаявокНаПеревозку</enums>
+  <reports>Report.ОтчетПоЗаявкамНаПеревозку</reports>
+  <reports>Report.ОтчетПоМаршрутнымЗаданиям</reports>
+  <dataProcessors>DataProcessor.РабочееМестоЗаказчика</dataProcessors>
+  <dataProcessors>DataProcessor.РабочееМестоПеревозчика</dataProcessors>
+  <dataProcessors>DataProcessor.РабочееМестоАдминистратора</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросовУФ</dataProcessors>
+  <informationRegisters>InformationRegister.ШтрихкодыДокументов</informationRegisters>
+</mdclass:Configuration>
